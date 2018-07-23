@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ItemTable from './ItemTable';
 import Form from './Form';
-import API from './const';
+import {API} from './const';
 
 class ItemData extends Component {
   constructor(props) {

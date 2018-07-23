@@ -1,2 +1,2 @@
-const API = 'http://localhost:8080/api/';
-export default API;
+export const API = 'https://portfolio-management-webapp.herokuapp.com/api/';
+export const PRICE_API = 'https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=10';

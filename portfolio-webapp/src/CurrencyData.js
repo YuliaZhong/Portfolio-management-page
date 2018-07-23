@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import CurrencyList from './CurrencyList';
-import API from './const';
+import {PRICE_API} from './const';
 
 class CurrencyData extends Component {
 	 constructor(props) {
@@ -12,7 +12,7 @@ class CurrencyData extends Component {
 
 
 	 componentDidMount() {
-		    fetch(API + 'currency')
+		    fetch(PRICE_API)
 		      .then(response => response.json())
 		      .then((currencies) => this.setState({currencies:currencies}));
 		  }
